@@ -8,9 +8,12 @@
 import SwiftUI
 import SwiftData
 
-@main
+/*@main
 struct demo_tableviewApp: App {
     var sharedModelContainer: ModelContainer = {
+        
+
+
         let schema = Schema([
             Item.self,
         ])
@@ -25,8 +28,12 @@ struct demo_tableviewApp: App {
 
     var body: some Scene {
         WindowGroup {
-            //ContentView()
+            NavigationView {
+                MyTableViewControllerRepresentable()
+            }//ContentView()
         }
-        .modelContainer(sharedModelContainer)
+       // .modelContainer(sharedModelContainer)
     }
 }
+*/
+
